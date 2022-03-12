@@ -52,23 +52,10 @@ class py_latex():
         doc.packages.append(Package("geometry"))
         doc.packages.append(NoEscape(r"\geometry{a4paper,total={170mm,257mm},left=20mm,top=20mm}"))
 
-        # doc.packages.append(NoEscape(r"\usepackage{color}"))
-        # doc.packages.append(NoEscape(r"\usepackage{booktabs}"))
-        # 设置定理以及环境
-        # doc.packages.append(Package("footmisc", "bottom")) # 注脚
-        # doc.packages.append(Package("longtable"))
-        # doc.packages.append(NoEscape(r"\theoremstyle{plain}")) # 数学环境
-        # doc.packages.append(NoEscape(r"\newtheorem{lemma}{Lemma}")) # 定理
-        # doc.packages.append(NoEscape(r"\newtheorem{proposition}{Proposition}")) # 结论
-        # doc.packages.append(NoEscape(r"\newtheorem{corollary}{Corollary}")) #推论
-        # doc.packages.append(NoEscape(r"\newtheorem{notation}{Notation}")) # 引用
-        # doc.packages.append(NoEscape(r"\newtheorem{definition}{Definition}")) #定义
-        # doc.packages.append(NoEscape(r"\newtheorem{example}{Example}")) # 举例
-
         doc.packages.add(Package("latex"))  # 更换解释器
         # doc.packages.append(Package("ctex"))
 
-        # 主体部分
+       
 
         doc.append(NoEscape(r"\begin{center}"))  # 居中
         doc.append(NoEscape(r"\MakeUppercase{\huge\textbf{resume}}"))  # 简历title
@@ -247,18 +234,7 @@ class py_latex():
         doc.packages.append(Package("geometry"))
         doc.packages.append(NoEscape(r"\geometry{a4paper,total={170mm,257mm},left=20mm,top=20mm}"))
 
-        # doc.packages.append(NoEscape(r"\usepackage{color}"))
-        # doc.packages.append(NoEscape(r"\usepackage{booktabs}"))
-        # 设置定理以及环境
-        # doc.packages.append(Package("footmisc", "bottom")) # 注脚
-        # doc.packages.append(Package("longtable"))
-        # doc.packages.append(NoEscape(r"\theoremstyle{plain}")) # 数学环境
-        # doc.packages.append(NoEscape(r"\newtheorem{lemma}{Lemma}")) # 定理
-        # doc.packages.append(NoEscape(r"\newtheorem{proposition}{Proposition}")) # 结论
-        # doc.packages.append(NoEscape(r"\newtheorem{corollary}{Corollary}")) #推论
-        # doc.packages.append(NoEscape(r"\newtheorem{notation}{Notation}")) # 引用
-        # doc.packages.append(NoEscape(r"\newtheorem{definition}{Definition}")) #定义
-        # doc.packages.append(NoEscape(r"\newtheorem{example}{Example}")) # 举例
+       
 
         #doc.packages.add(Package("latex"))  # 更换解释器
         doc.packages.append(Package("ctex"))
