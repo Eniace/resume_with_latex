@@ -1,0 +1,230 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage[bottom=1.5cm,top=1.5cm,left=0.2in,right=0.2in]{geometry}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+ % 插入超链接
+\usepackage{hyperref}
+%插入图标
+\usepackage{fontawesome}
+\usepackage[document]{ragged2e}
+
+%\newcommand{\setfontfamily\FA[Path=\@fontdir]{FontAwesome}}
+
+	
+\DeclareFontFamily{U}{fontawesomeOne}{}
+\DeclareFontShape{U}{fontawesomeOne}{m}{n}
+  	{<-> FontAwesome--fontawesomeone}{}
+\DeclareRobustCommand\FAone{\fontencoding{U}\fontfamily{fontawesomeOne}\selectfont}	
+
+
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{lastpage}
+\usepackage{amssymb, latexsym, amsmath, amsthm, verbatim, graphicx, epstopdf, epsfig}
+\usepackage[bottom]{footmisc}
+\theoremstyle{plain}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{notation}{Notation}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+
+%\setlength{\textwidth}{6.8in} 
+%\setlength{\textheight}{11.0in}
+%\setlength{\evensidemargin}{0.0in}
+%\setlength{\oddsidemargin}{0.0in} 
+%\setlength{\topmargin}{0.1in}
+\setlength{\parindent}{0pt} %换行不缩进
+\usepackage{array}
+%\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+%\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+%\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\usepackage{latex}
+
+%\setlength{\leftmargin}{0.2in}
+%\setlength{\rightmargin}{0.2in}
+
+%\setlength{\leftmargini}{0.2in}
+%
+%
+%
+\begin{document}
+%\normalsize
+\begin{center}
+\MakeUppercase{\huge\textbf{resume}}
+%\\
+%{\small Yuchen Xiong}
+\end{center}
+
+
+
+\begin{flushleft}
+\\
+{\large name
+\hfill
+\url{https:/xxxxxx.github.io}{  }{\Huge\faGithub}
+\\xxxxxx@xxxxx.com\\+xxxxxxxxxx}
+\end{flushleft}
+
+%\rule[4pt]{18cm}{0.5pt} % 添加横线
+%\begin{flushleft}
+
+%\MakeUppercase{\Large\textbf{Job Intention: Business Analyst}} % 求职意愿
+%\rule[4pt]{18cm}{0.5pt}
+
+\\\hspace*{\fill}\\
+
+
+\MakeUppercase{\Large\textbf{Work Experience}} % 工作经验
+
+\end{flushleft}
+\rule[4pt]{18cm}{0.5pt} % 添加横线
+
+\MakeUppercase{\small\textbf{title 1}}
+\hfill
+\MakeUppercase{\footnotesize\textbf{company 1}}
+\hfill
+\MakeUppercase{\small\textbf{time 1}}
+
+\begin{itemize}
+	\item{\normalsize{duty 1}}
+	\item{\normalsize{duty 2}}
+	\item{\normalsize{duty 3}}
+	\item{\normalsize{duty 4}}
+	
+\end{itemize}
+
+\MakeUppercase{\small\textbf{title 2}}
+\hfill
+\MakeUppercase{\small\textbf{company 2}}
+\hfill
+\MakeUppercase{\small\textbf{time 2}}
+\begin{itemize}
+	\item{\normalsize{duty 1}}
+	\item{\normalsize{duty 2}}
+	\item{\normalsize{duty 3}}
+	\item{\normalsize{duty 4}}
+\end{itemize}
+
+\MakeUppercase{\small\textbf{title 3}}
+\hfill
+\MakeUppercase{\small\textbf{company 3}}
+\hfill
+\MakeUppercase{\small\textbf{time 3}}
+\begin{itemize}
+	\item{\normalsize{duty 1}}
+	\item{\normalsize{duty 2}}
+	\item{\normalsize{duty 3}}
+	\item{\normalsize{duty 4}}
+\end{itemize}
+
+\\\hspace*{\fill}\\
+
+\begin{flushleft}
+\MakeUppercase{\Large\textbf{project experience}} % 项目经验
+\end{flushleft}
+\rule[4pt]{18cm}{0.5pt}
+\begin{itemize}
+	\item{\normalsize{time}\hfill\normalsize{project 1}\hfill\normalsize{Person in Charge}\\\normalsize{details}
+	\item{\normalsize{time}\hfill\normalsize{project 2}\hfill\normalsize{Person in Charge}\\\normalsize{details}
+	\item{\normalsize{time}\hfill\normalsize{project 3}\hfill\normalsize{Person in Charge}\\\normalsize{details}
+	\item{\normalsize{time}\hfill\normalsize{project 4}\hfill\normalsize{Person in Charge}\\\normalsize{details}
+
+\newpage
+
+\begin{flushleft}
+\MakeUppercase{\Large\textbf{education}} % 教育经历
+\end{flushleft}
+\rule[4pt]{18cm}{0.5pt} % 添加横线
+
+
+\MakeUppercase{\small\textbf{diploma 1}}
+\hfill
+\MakeUppercase{\small\textbf{xxxx University}}
+\hfill
+\\
+\MakeUppercase{\normalsize\textbf{time 1}
+\hfill\MakeUppercase{\small\textbf{GPA:xx/4.0}}
+
+\begin{flushleft}
+\MakeUppercase{\normalsize\textbf{main course}}
+\end{flushleft}
+
+{courses}
+%\newpage
+
+\MakeUppercase{\small\textbf{diploma 2}}
+\hfill
+\MakeUppercase{\small\textbf{xxxx University}}
+\hfill
+\\
+\MakeUppercase{\normalsize\textbf{time 2}}
+\hfill\MakeUppercase{\small\textbf{GPA:xx/4.0}}
+\begin{flushleft}
+\MakeUppercase{\normalsize\textbf{main course}}
+\end{flushleft}
+{courses}
+
+\\\hspace*{\fill}\\
+
+\begin{flushleft}
+\MakeUppercase{\Large\textbf{internship}} % 实习
+\end{flushleft}
+\rule[4pt]{18cm}{0.5pt} % 添加横线
+
+
+\MakeUppercase{\small\textbf{title 1}}  %实习1
+\hfill
+\MakeUppercase{\small\textbf{company1}}
+\hfill
+\MakeUppercase{\small\textbf{time 1}}
+\begin{itemize}
+	\item{\normalsize{duty 1}}
+	\item{\normalsize{duty 2}}
+\end{itemize}
+
+
+\MakeUppercase{\small\textbf{title 2}} % 实习2
+\hfill
+\MakeUppercase{\small\textbf{company 2}}
+\hfill
+\MakeUppercase{\small\textbf{time 2}}
+
+\begin{itemize}
+	\item{\normalsize{duty 1}}
+	\item{\normalsize{duty 2}}
+	\item{\normalsize{duty 3}}
+	
+\end{itemize}
+
+\\\hspace*{\fill}\\
+
+\begin{flushleft}
+\MakeUppercase{\Large\textbf{research}}  % 研究经验
+\end{flushleft}  
+\rule[4pt]{18cm}{0.5pt} % 添加横线
+
+\MakeUppercase{\small\textbf{theme}}
+\\{details}
+\\\hspace*{\fill}\\
+
+\begin{flushleft}
+\MakeUppercase{\Large\textbf{skill}} % 能力
+\end{flushleft}
+\rule[4pt]{18cm}{0.5pt} % 添加横线
+
+\begin{itemize}
+	\item{\normalsize{Python-- Skillful}\hfill{ Time of use: xx months}}
+	\item{\normalsize{Excel and VBA-- Proficient}\hfill{Time of use: xx months}}
+	\item{\normalsize{Microsoft Office-- Skillful}\hfill{Time of use: xx months}}	
+\end{itemize}
+
+\end{document}
