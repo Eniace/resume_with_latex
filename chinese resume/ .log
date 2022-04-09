@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  26 MAR 2022 19:39
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  9 APR 2022 18:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -940,7 +940,27 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 245--246
  []
 
 
-Package lastpage Warning: Rerun to get the references right on input line 253.
+./ .tex:253: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.253 \\\hspace
+               *{\fill}\\ % 空行
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 257--258
+[] 
+ []
+
+
+Package lastpage Warning: Rerun to get the references right on input line 266.
 
 
 AED: lastpage setting LastPage
@@ -952,10 +972,10 @@ Package rerunfilecheck Info: File `" ".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 16497 strings out of 476919
- 327916 string characters out of 5821841
+ 16508 strings out of 476919
+ 328728 string characters out of 5821841
  674571 words of memory out of 5000000
- 36173 multiletter control sequences out of 15000+600000
+ 36184 multiletter control sequences out of 15000+600000
  419606 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  96i,4n,103p,343b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
