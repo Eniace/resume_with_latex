@@ -1,0 +1,212 @@
+%\documentclass[twocolumn]{article}
+%\documentclass{article}
+\documentclass{ctexart}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage[bottom=1.5cm,top=1.5cm,left=0.2in,right=0.2in]{geometry}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={200mm,257mm},
+ left=5mm,
+ top=5mm,
+ bottom=5mm
+ }
+ % 插入超链接
+\usepackage{hyperref}
+%插入图标
+\usepackage{fontawesome}
+
+\usepackage{ragged2e}
+
+%\newcommand{\setfontfamily\FA[Path=\@fontdir]{FontAwesome}}
+
+	
+\DeclareFontFamily{U}{fontawesomeOne}{}
+\DeclareFontShape{U}{fontawesomeOne}{m}{n}
+  	{<-> FontAwesome--fontawesomeone}{}
+\DeclareRobustCommand\FAone{\fontencoding{U}\fontfamily{fontawesomeOne}\selectfont}	
+
+
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{lastpage}
+% 新建环境
+%\usepackage{lipsum} 英文随机文本生成包
+%\usepackage{zhlipsum}  中文随机文本生成包
+\usepackage{paracol}
+
+
+\usepackage{amssymb, latexsym, amsmath, amsthm, verbatim, graphicx, epstopdf, epsfig}
+\usepackage[bottom]{footmisc}
+\theoremstyle{plain}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{notation}{Notation}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+
+%\setlength{\textwidth}{6.8in} 
+%\setlength{\textheight}{11.0in}
+%\setlength{\evensidemargin}{0.0in}
+%\setlength{\oddsidemargin}{0.0in} 
+%\setlength{\topmargin}{0.1in}
+\setlength{\parindent}{0pt} %换行不缩进
+\usepackage{array}
+%\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+%\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+%\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\usepackage{latex}
+
+
+
+
+
+
+
+
+\begin{document}
+	\columnratio{0.325,0.675}
+	\begin{paracol}{2}	
+	
+	
+	\\\hspace*{\fill}\\
+	\begin{itemize}
+		
+		\item{\MakeUppercase{\LARGE\textbf{concat}} % concat
+		\\\hspace*{\fill}\\
+		\normalsize\textbf{Email\\xxxxxxx@outlook.com}
+		\\
+		\normalsize\textbf{Tel\\xxxxxxxx}}
+		\\
+		\normalsize\textbf{Github{\Huge\faGithub}\\{\url{https://eniace.github.io}}}}
+		
+		\\\hspace*{\fill}\\
+		
+		\item{\MakeUppercase{\LARGE\textbf{education}} % education
+		\\\hspace*{\fill}\\
+		\textbf{\large{Master of Financial\\Accountability}}
+		\\xxxx University\\20xx.09-20xx.06\\
+		\textbf{\large{Bachelor of Economics}}
+		\\xxxx University\\20xx.09-20xx.09		
+		
+		\\\hspace*{\fill}\\
+		
+		\item{\MakeUppercase{\LARGE\textbf{skill}} % skill
+		\\\hspace*{\fill}\\
+		\normalsize\textbf{Python\\(pandas/scipy/pymysql\\statsmodels/pylatex/sklearn)\\SQL\\Latex\\VBA\\Microsoft Office}}}
+		
+		\\\hspace*{\fill}\\
+		
+		
+		\item{\MakeUppercase{\LARGE\textbf{certificate}} %certificate
+		\\\hspace*{\fill}\\
+		\normalsize\textbf{CFA level I\\Fund Qualification Certificate of China}}
+		
+		
+		\\\hspace*{\fill}\\	
+		
+		\item{\MakeUppercase{\LARGE\textbf{language}} %language
+		\\\hspace*{\fill}\\
+		\normalsize\textbf{English\\Chinese(mandarin)}}
+	\end{itemize}
+	
+	\switchcolumn %换栏
+	
+	
+	\smash{\rule[-1\textheight]{2pt}{1\textheight}}
+	% linewidth 是当前行宽度，hsapce 0.05linewidth 是水平空格0.05倍的当前行宽度
+		
+	\begin{center}
+	
+	\MakeUppercase{\Huge\textbf{your name}}\\
+	\MakeUppercase{\normalsize\textbf{xxxxxxxxx}}
+	\end{center}
+	\begin{flushleft}
+	
+	\hspace*{.05\linewidth}
+	{
+	\MakeUppercase{\normalsize\textbf{summary: }}}
+	
+	\hspace*{.05\linewidth}
+	{
+	{This is the summary of your resume.}
+	}
+	
+	\hspace*{.05\linewidth}
+	{
+	{This is the summary of your resume.}
+	}
+	
+	\end{flushleft}
+	
+	\begin{flushleft}
+	\hspace*{.05\linewidth} % 空格宽度为0.05倍的当前行宽
+	\MakeUppercase{\Large\textbf{Work Experience}} % 工作经验
+	\end{flushleft}
+		
+	\hspace*{.05\linewidth}{\rule[4pt]{18cm}{0.5pt}}% 添加横线
+	
+	
+	
+		
+	\hspace*{.05\linewidth}{
+	\MakeUppercase{\small\textbf{Financial Analyst}\hfill\textbf{20xx.xx-20xx.xx}}}
+	\\
+	\hspace*{.05\linewidth}
+	{
+	\MakeUppercase{\small\textbf{Company 1}}
+	}
+	
+	\begin{itemize}
+		\item{\normalsize{This is your daily work sample in your resume}}
+		\item{\normalsize{This is your daily work sample in your resume}}
+		\item{\normalsize{This is your daily work sample in your resume}}
+		\item{\normalsize{This is your daily work sample in your resume}}
+		\item{\normalsize{This is your daily work sample in your resume}}
+		\item{\normalsize{This is your daily work sample in your resume}}
+	\end{itemize}
+	
+		
+	\hspace*{.05\linewidth}{\MakeUppercase{\small\textbf{Data Analyst}\hfill\textbf{20xx.xx-20xx.xx}}}
+	\\
+	\hspace*{.05\linewidth}{\MakeUppercase{\small\textbf{Company 2.}}}
+	\begin{itemize}
+		\item{\normalsize{This is your daily work sample in your resume}}
+		\item{\normalsize{This is your daily work sample in your resume}}
+		\item{\normalsize{This is your daily work sample in your resume}}
+		\item{\normalsize{This is your daily work sample in your resume}}
+		\item{\normalsize{This is your daily work sample in your resume}}
+		\item{\normalsize{This is your daily work sample in your resume}}
+	\end{itemize}
+	
+	\hspace*{.05\linewidth}{\MakeUppercase{\small\textbf{Teller}\hfill\textbf{20xx.xx-20xx.xx}}}
+	\\
+	\hspace*{.05\linewidth}{\MakeUppercase{\small\textbf{Company 3}}}
+
+	\begin{itemize}
+		\item{\normalsize{This is your daily work sample in your resume}}
+		\item{\normalsize{This is your daily work sample in your resume}}
+		\item{\normalsize{This is your daily work sample in your resume}}
+		\item{\normalsize{This is your daily work sample in your resume}}
+	\end{itemize}
+
+
+	
+	\begin{flushleft}
+	\hspace*{.05\linewidth} % 空格宽度为0.05倍的当前行宽
+	\MakeUppercase{\Large\textbf{project Experience}} % 项目经验
+	\end{flushleft}		
+	\hspace*{.05\linewidth}{\rule[4pt]{18cm}{0.5pt}}% 添加横线
+	\begin{itemize}
+		\item{\normalsize{Program 1}\hfill\normalsize{20xx.xx-20xx.xx}\\\normalsize{This is your project experience sample in your resume.}
+		\item{\normalsize{Program 1}\hfill\normalsize{20xx.xx-20xx.xx}\\\normalsize{This is your project experience sample in your resume.}
+		
+
+	\end{itemize}
+
+	
+	
+\end{paracol}
+\end{document}
