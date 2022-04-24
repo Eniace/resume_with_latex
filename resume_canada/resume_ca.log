@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.1)  24 APR 2022 18:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.1)  24 APR 2022 18:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -969,55 +969,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
  []
 
 
-./resume_ca.tex:100: LaTeX Error: There's no line here to end.
+./resume_ca.tex:102: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 		\\\hspace
+l.102 		\\\hspace
                  *{\fill}\\
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-./resume_ca.tex:108: LaTeX Error: There's no line here to end.
+./resume_ca.tex:110: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 		\\\hspace
+l.110 		\\\hspace
                  *{\fill}\\	
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
+./resume_ca.tex:115: Missing } inserted.
+<inserted text> 
+                }
+l.115 	\end{itemize}
+                    
+? 
+./resume_ca.tex:115: Missing } inserted.
+<inserted text> 
+                }
+l.115 	\end{itemize}
+                    
+? 
 
-Overfull \hbox (153.65501pt too wide) in paragraph at lines 149--150
+Overfull \hbox (153.65501pt too wide) in paragraph at lines 146--147
 []| [] 
  []
 
 
-Overfull \hbox (153.65501pt too wide) in paragraph at lines 201--202
-| [] 
+Overfull \hbox (153.65501pt too wide) in paragraph at lines 199--200
+[]| [] 
  []
 
-./resume_ca.tex:207: Missing } inserted.
+./resume_ca.tex:210: Missing } inserted.
 <inserted text> 
                 }
-l.207 	\end{itemize}
+l.210 	\end{itemize}
                     
 ? 
-./resume_ca.tex:207: Missing } inserted.
+./resume_ca.tex:210: Missing } inserted.
 <inserted text> 
                 }
-l.207 	\end{itemize}
+l.210 	\end{itemize}
                     
 ? 
 [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -1049,7 +1061,7 @@ xmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2021/texmf-dist/f
 onts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
 public/lm/lmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/l
 mtk10.pfb>
-Output written on resume_ca.pdf (1 page, 144004 bytes).
+Output written on resume_ca.pdf (1 page, 143933 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
