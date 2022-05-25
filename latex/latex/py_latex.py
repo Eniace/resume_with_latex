@@ -1,5 +1,5 @@
 import os.path
-#import pdflatex
+
 import pandas as pd
 import numpy as np
 import datetime
@@ -8,15 +8,13 @@ import statsmodels.api as sm
 import re
 import shutil
 import warnings
-#import jqdatasdk
-#from jqdatasdk import *
+
 import pymysql
-# import calender
-# import dataframe_image
+
 import pylatex
 import datetime
-#from pylatex import Document, Section, Subsection, Command,Package
-#from pylatex.utils import italic, NoEscape
+
+
 from pylatex import Document,Section,Subsection,Command,Package,Tabular, LongTabu,LongTable, MultiColumn, HFill,Figure
 from pylatex.utils import italic, NoEscape
 import math
@@ -39,16 +37,11 @@ class py_latex():
     def get_resume_english(self):
         print(" start creating english resume tex file in pylatex")
         root_path = os.path.abspath(os.path.dirname(__file__))
-        # 由于Mac系统的限制，无法直接使用相对路径添加模式，需要使用os.path.join
         path_temp = os.path.dirname(root_path)
         path_report = get_path(os.path.join(path_temp, "resume", "english"," "))
-        # path_report = get_path(os.path.dirname(root_path) + '\\resume\\yuchen\\')
-
         doc = Document(default_filepath=path_report, documentclass='article')
 
-        # 加载会用到的包
-        # doc.packages.append(Package( "amssymb, latexsym, amsmath, amsthm, verbatim, graphicx, epstopdf, epsfig")
-        # 调整页面边距
+
         doc.packages.append(Package("geometry"))
         doc.packages.append(NoEscape(r"\geometry{a4paper,total={170mm,257mm},left=20mm,top=20mm}"))
 
@@ -221,16 +214,14 @@ class py_latex():
     def get_resume_chinese(self):
         print(" start creating chinese resume tex file in pylatex")
         root_path = os.path.abspath(os.path.dirname(__file__))
-        # 由于Mac系统的限制，无法直接使用相对路径添加模式，需要使用os.path.join
+        
         path_temp = os.path.dirname(root_path)
         path_report = get_path(os.path.join(path_temp, "resume", "chinese"," "))
-        # path_report = get_path(os.path.dirname(root_path) + '\\resume\\yuchen\\')
+        
 
         doc = Document(default_filepath=path_report, documentclass='article')
 
-        # 加载会用到的包
-        # doc.packages.append(Package( "amssymb, latexsym, amsmath, amsthm, verbatim, graphicx, epstopdf, epsfig")
-        # 调整页面边距
+
         doc.packages.append(Package("geometry"))
         doc.packages.append(NoEscape(r"\geometry{a4paper,total={170mm,257mm},left=20mm,top=20mm}"))
 
